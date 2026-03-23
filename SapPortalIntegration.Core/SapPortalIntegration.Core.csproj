@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Custom\**" />
+    <Compile Remove="Enum\**" />
+    <Compile Remove="Utils\**" />
+    <EmbeddedResource Remove="Custom\**" />
+    <EmbeddedResource Remove="Enum\**" />
+    <EmbeddedResource Remove="Utils\**" />
+    <None Remove="Custom\**" />
+    <None Remove="Enum\**" />
+    <None Remove="Utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\" />
+  </ItemGroup>
+
+</Project>

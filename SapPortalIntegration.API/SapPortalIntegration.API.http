@@ -1,0 +1,6 @@
+@SapPortalIntegration.API_HostAddress = http://localhost:5120
+
+GET {{SapPortalIntegration.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
