@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SapPortalIntegration.Application\SapPortalIntegration.Application.csproj" />
     <ProjectReference Include="..\SapPortalIntegration.Core\SapPortalIntegration.Core.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
