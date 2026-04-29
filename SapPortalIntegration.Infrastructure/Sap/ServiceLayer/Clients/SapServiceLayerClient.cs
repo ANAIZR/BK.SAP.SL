@@ -1,19 +1,14 @@
 ﻿using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using SapPortalIntegration.Application.Contracts.Response.HttpClients;
 using SapPortalIntegration.Core.Interfaces;
 using Shared.Configuration;
 using Shared.Logging;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
-
-namespace SapPortalIntegration.Infrastructure.Sap;
+using SapPortalIntegration.Infrastructure.Sap.ServiceLayer.Dtos.Responses;
+namespace SapPortalIntegration.Infrastructure.Sap.ServiceLayer.Clients;
 
 public class SapServiceLayerClient : ISapServiceLayerClient
 {
@@ -147,5 +142,7 @@ public class SapServiceLayerClient : ISapServiceLayerClient
             return false;
         }
     }
+
+
 
 }

@@ -1,11 +1,7 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace SapPortalIntegration.Application.Contracts.Response.HttpClients;
+
+namespace SapPortalIntegration.Infrastructure.Sap.ServiceLayer.Dtos.Responses;
 public class UdoLoginResponse
 {
     public string SessionId { get; set; }

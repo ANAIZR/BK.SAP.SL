@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <Folder Include="Contracts\Request\" />
+    <Folder Include="Contracts\Response\HttpClients\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
